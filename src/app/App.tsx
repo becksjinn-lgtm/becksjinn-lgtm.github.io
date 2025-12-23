@@ -1,11 +1,11 @@
 import { motion, useScroll, useTransform, useInView, useMotionValue, useSpring } from 'motion/react';
 import { useRef, useEffect, useState } from 'react';
-import goalImage1 from 'figma:asset/8edcce207d4d2279e86ba22d150fa7f0a5424b82.png';
-import goalImage2 from 'figma:asset/7ecfa1e9848db70299e7470e99a6ab16b7085248.png';
-import goalImage3 from 'figma:asset/093b51eb9adba80521cb5e13d4235cf906a024c0.png';
-import injuryImage from 'figma:asset/551a30f193b6045b6c5f6dfbde9186f9fbf67a38.png';
-import recruitImage1 from 'figma:asset/611c0400101768421892f8fd24afb526a31d3928.png';
-import recruitImage2 from 'figma:asset/ea03cd5d7e3a69931917884d42198fbe85aa4df8.png';
+import goalImage1 from '../assets/8edcce207d4d2279e86ba22d150fa7f0a5424b82.png';
+import goalImage2 from '../assets/7ecfa1e9848db70299e7470e99a6ab16b7085248.png';
+import goalImage3 from '../assets/093b51eb9adba80521cb5e13d4235cf906a024c0.png';
+import injuryImage from '../assets/551a30f193b6045b6c5f6dfbde9186f9fbf67a38.png';
+import recruitImage1 from '../assets/611c0400101768421892f8fd24afb526a31d3928.png';
+import recruitImage2 from '../assets/ea03cd5d7e3a69931917884d42198fbe85aa4df8.png';
 
 interface Award {
   tag: string;
